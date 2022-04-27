@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#FF000000</color>
+    <color name="secondary_color">#FF999999</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darker_color">#262626</color>
+    <color name="cursor_color">#EFEFEF</color>
+    <color name="btn_color">#FFFFFFFF</color>
+    <color name="blue">#0095F6</color>
+    <color name="dialog_color">#262626</color>
+    <color name="dialog_btn_divider">#4C4C4C</color>
+    <color name="information">#999999</color>
+    <color name="red">#F76F68</color>
+    <color name="ripple">#33FFFFFF</color>
+</resources>

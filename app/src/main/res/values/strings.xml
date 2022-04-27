@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <string name="app_name">InstaLoad</string>
+    <string name="download">Download</string>
+    <string name="Instaload">InstaLoad</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="notConnected">Check your internet connection</string>
+    <!-- Main Activity -->
+    <string name="paste_video_or_reel_link">Paste a Video or Reel link</string>
+    <!-- History Activity -->
+    <string name="there_is_no_video_in_your_history">There is no video in your history</string>
+    <string name="duration">Duration: %1$s</string>
+    <string name="date">Date: %1$s</string>
+    <string name="search">Search…</string>
+    <!-- Dialog/Swipe Gesture -->
+    <string name="are_you_sure_you_want_to_delete_everything">Are you sure you want to delete everything?</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <!-- Toasts -->
+    <string name="emptyField">Empty field, paste a Video or Reels link</string>
+    <string name="invalidLink">Invalid link pasted, try again</string>
+    <string name="notDownloaded">Instagram is not downloaded on your device</string>
+    <!-- SnackBar -->
+    <string name="deleted">Deleted element</string>
+    <string name="undo">Undo</string>
+
+    <string name="_01_01">01/01</string>
+</resources>

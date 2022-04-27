@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/bottom_left_corner.xml" value="0.227" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/bottom_right_corner.xml" value="0.1865" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/button_cancel.xml" value="0.1865" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/button_date_cancel.xml" value="0.227" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/button_inner_remove.xml" value="0.151" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/button_style.xml" value="0.1865" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/home_state_icon.xml" value="0.1955" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/ic_close.xml" value="0.1735" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/ic_date_picker.xml" value="0.227" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/ic_delete.xml" value="0.1735" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/ic_insta.xml" value="0.211" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/ic_search.xml" value="0.1865" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/nav_item_color.xml" value="0.1735" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/ripple_dialog.xml" value="0.1735" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/search_view_bg.xml" value="0.1865" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/drawable/shape.xml" value="0.227" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/layout/activity_history.xml" value="0.33" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/layout/activity_splash_screen.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/layout/custom_dialog.xml" value="0.3625" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/layout/custom_popup.xml" value="0.8393234672304439" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/layout/custom_row.xml" value="0.1" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/layout/navbar.xml" value="0.3625" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/layout/toolbar.xml" value="0.3625" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/layout/videoplayer.xml" value="0.3625" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/InstaLoad/app/src/main/res/menu/menu_nav.xml" value="0.3625" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.29270833333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/bottom_left_corner.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/bottom_right_corner.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/btn_cancel_color.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/btn_download_history.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/button_cancel.xml" value="0.3828125" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/button_style.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/delete_gesture_bg.xml" value="0.3728205128205128" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/dialog_bg.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/dialog_style.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/history_logo.xml" value="0.3828125" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/home_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/home_state_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/ic_close.xml" value="0.29270833333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/ic_delete.xml" value="0.3828125" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/ic_delte.xml" value="0.3828125" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/ic_insta.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/ic_launcher_background.xml" value="0.29270833333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/ic_no_history.xml" value="0.3828125" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/nav_item_color.xml" value="0.3828125" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/navbar.xml" value="0.3828125" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/popoup_bg.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/popup_bg.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/recyclerview_corner.xml" value="0.3828125" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/ripple_dialog.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/shape.xml" value="0.3728205128205128" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/splashscreen_black.xml" value="0.29270833333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/splashscreen_white.xml" value="0.29270833333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/textfield_style.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/top_left_corner.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/drawable/top_right_corner.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/layout/activity_history.xml" value="0.33" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/layout/custom_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/layout/custom_popup.xml" value="0.49333333333333335" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/layout/custom_row.xml" value="0.67" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/layout/fragment_blank.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/layout/navbar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/layout/toolbar.xml" value="0.33" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/layout/videoplayer.xml" value="0.3625" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/menu/menu_nav.xml" value="0.17962962962962964" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/xml/filepaths.xml" value="0.3625" />
+        <entry key="..\:/Users/Aleksandar/AndroidStudioProjects/andfun-kotlin-android-trivia-starter-code/InstaLoad/app/src/main/res/xml/files_path.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

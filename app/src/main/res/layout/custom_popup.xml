@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_download_video"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:background="@drawable/button_style"
+        android:includeFontPadding="false"
+        android:text="@string/download"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewpager" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/popup_storie_ring"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/viewpager"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/storie_ring" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/popup_pfp_placeholder"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:padding="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/popup_storie_ring"
+        app:layout_constraintEnd_toEndOf="@+id/popup_storie_ring"
+        app:layout_constraintTop_toTopOf="@+id/popup_storie_ring"
+        app:shapeAppearanceOverlay="@style/circular"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/popup_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:includeFontPadding="false"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/viewpager"
+        app:layout_constraintStart_toEndOf="@+id/popup_storie_ring"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

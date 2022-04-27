@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="26dp"
+    app:cardBackgroundColor="@color/darker_color"
+    app:cardElevation="0dp"
+    android:layout_marginBottom="10dp" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/preview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/preview">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/storie_ring"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignStart="@+id/pfp_placeholder"
+                android:layout_alignTop="@+id/pfp_placeholder"
+                app:shapeAppearanceOverlay="@style/circular"
+                app:srcCompat="@drawable/storie_ring" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/pfp_placeholder"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:padding="3dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/storie_ring"
+                android:includeFontPadding="false"
+                android:text="TextView" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/btn_instagram"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_insta"
+            android:theme="@style/Ripple" />
+
+        <ImageButton
+            android:id="@+id/btn_download_element"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/btn_instagram"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_download_history"
+            android:theme="@style/Ripple"
+            app:tint="@color/btn_color" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/date"
+            android:layout_marginStart="55dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/preview"
+            android:includeFontPadding="false"
+            android:text="TextView"
+            android:textColor="@color/information" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginBottom="17dp"
+            android:layout_toEndOf="@+id/preview"
+            android:includeFontPadding="false"
+            android:text="TextView"
+            android:textColor="@color/information" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

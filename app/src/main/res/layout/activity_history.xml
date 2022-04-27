@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HistoryActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:stateListAnimator="@null">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapstoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            android:background="@color/primary_color"
+            app:contentScrim="@color/primary_color"
+            app:statusBarScrim="@android:color/black"
+            android:fitsSystemWindows="true"
+            app:titleEnabled="false">
+
+            <TextView
+                android:id="@+id/tv_toolbar_top_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/history"
+                android:fontFamily="@font/sanslight"
+                android:textSize="40sp"
+                app:layout_collapseMode="parallax"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:paddingEnd="24dp"
+                app:layout_collapseMode="pin"
+                android:background="@android:color/transparent"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.appcompat.widget.SearchView
+                        android:id="@+id/search_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="-15dp"
+                        android:layout_marginEnd="55dp"
+                        android:theme="@style/AppSearchView"
+                        app:iconifiedByDefault="false"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/btn_delete_all"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:queryHint="@string/search" />
+
+                    <include
+                        android:id="@+id/include"
+                        layout="@layout/toolbar"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageButton
+                        android:id="@+id/btn_search"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_search"
+                        android:theme="@style/Ripple"
+                        android:layout_marginEnd="35dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/btn_date_picker"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageButton
+                        android:id="@+id/btn_date_picker"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_date_picker"
+                        android:theme="@style/Ripple"
+                        android:layout_marginEnd="35dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/btn_delete_all"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_delete_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:minWidth="0dp"
+                        android:text="@string/_01_01"
+                        android:textSize="17dp"
+                        android:textColor="@color/white"
+                        android:includeFontPadding="false"
+                        android:background="@drawable/button_date_cancel"
+                        android:drawableEnd="@drawable/ic_close"
+                        android:drawableTint="@color/white"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="5dp"
+                        android:layout_marginEnd="35dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/btn_delete_all"
+                        app:layout_constraintTop_toTopOf="parent"
+                        style="?android:attr/borderlessButtonStyle" />
+
+                    <ImageButton
+                        android:id="@+id/btn_delete_all"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_delete"
+                        android:theme="@style/Ripple"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="?attr/actionBarSize"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/top_left_corner"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/top_right_corner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?actionBarSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" >
+
+            <ImageView
+                android:id="@+id/img_noHistory"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/ic_no_history" />
+
+            <TextView
+                android:id="@+id/txt_noHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_below="@+id/img_noHistory"
+                android:text="@string/there_is_no_video_in_your_history"
+                android:textColor="@color/secondary_color" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_height="25dp"
+        android:layout_width="25dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bottom_left_corner"
+        android:layout_marginBottom="?attr/actionBarSize" />
+
+    <View
+        android:layout_height="25dp"
+        android:layout_width="25dp"
+        android:layout_gravity="bottom|end"
+        android:background="@drawable/bottom_right_corner"
+        android:layout_marginBottom="?attr/actionBarSize" />
+
+    <include
+        android:id="@+id/navbar"
+        layout="@layout/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
