@@ -8,6 +8,6 @@ Download your favourite videos from Instagram
 
 - One handed UI
 - Simply download videos, multiple posts and Reels
-- Have everything saved in your history, and delete what you don't need anymore
-- Share what you downloaded to your friends
+- Have everything saved in your history, and delete your sussy activities
+- Share what you downloaded to your friends!
 - Searching by username or date
